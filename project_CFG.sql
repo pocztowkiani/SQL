@@ -1,4 +1,4 @@
-# Project owner: Anna Lisowka
+
 
 # CORE REQUIREMENTS:
 # Create relational DB of your choice with minimum 5 tables
