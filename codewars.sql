@@ -260,3 +260,13 @@ ORDER BY age DESC;
 SELECT -number AS res
 FROM opposite;
 
+# 8 kyu: Grasshopper - Terminal game move function
+#Terminal game move function
+#In this game, the hero moves from left to right. The player rolls the dice and moves the number of spaces indicated by the dice two times.
+#In SQL, you will be given a table moves with columns position and roll. Return a table which uses the current position of the hero and the roll (1-6) 
+#and returns the new position in a column res.
+
+SELECT position + 2 * roll AS res
+FROM moves;
+
+
